@@ -53,9 +53,9 @@ li {
 }
 .wrapper {
     padding: 20px;
-    margin: auto;
+    margin: 100px auto;
     max-width: 960px;
-    background-color: #ffffff
+    background-color: #ffffff;
 }
 #profilePhoto {
     float: left;
