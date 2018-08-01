@@ -1,9 +1,11 @@
+/* Set the background image so that it would cover the page and not repeat itself */
 body {
     background: url("../images/gray_jean.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+/* Made a header bar with a fixed positon so the menu is always at the top of the browser window */
 header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
@@ -14,6 +16,7 @@ header {
     margin-top: 0px;
     padding: 0px;
 }
+/* Setting the logo margin and padding to 0 aligned it at the top and the line height was set to center text */
 .mainLogo {
     background-color: #4aaaa5;
     margin: 0;
@@ -29,28 +32,33 @@ header {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* The navigation menu is position fixed on the menu bar */
 .navBar {
     position: fixed;
     top: 5px;
     right: 150px;
     padding: 20px;
 }
+/* Removed styling from the list */
 .noBullets {
     margin: 0;
     padding: 0px;
     list-style-type: none;
     text-align: center;
-}        
+}     
+/* Removed styling from the links in the navBar */
 a:link, a:visited {
     text-decoration: none;
     color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* Targeted the list element specifically because anchor tags cannot be formatted in this way */
 li {
     display: inline-block;
     padding-right: 5px;
     border-right: .5px solid #cccccc;
 }
+/* Used this to frame my content center on the page */
 .wrapper {
     padding: 20px;
     margin: 100px auto;
