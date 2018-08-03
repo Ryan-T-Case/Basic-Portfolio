@@ -12,6 +12,7 @@ header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
@@ -77,6 +78,21 @@ li {
     float: left;
     margin-right: 50px;
     margin-left: 150px;
+}
+.topLeft, .midLeft, .bottomLeft, .topRight, .midRight, .bottomRight {
+    position: relative;
+    overflow: auto;
+}
+.galleryBox {
+    position: absolute;
+    bottom: 10px;
+    width: 300px;
+    height: 75px;
+    background-color: #4aaaa5;
+    line-height: 75px;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
 }
 footer {
     background-color: #666666;
