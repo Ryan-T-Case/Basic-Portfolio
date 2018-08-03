@@ -73,6 +73,12 @@ li {
     width: 200px;
     margin-right: 20px;
 }
+.topLeft, .midLeft, .bottomLeft{
+    float: left;
+    margin-right: 50px;
+    margin-left: 150px;
+}
+}
 footer {
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
