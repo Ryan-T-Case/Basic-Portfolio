@@ -1,6 +1,6 @@
 /* Set the background image so that it would cover the page and not repeat itself */
 body {
-    background-image: url("../images/gray_jean.png");
+    background-image: url("../images/fabric.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
