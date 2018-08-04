@@ -80,7 +80,7 @@ header {
     padding: 0px;
     list-style-type: none;
     text-align: center;
-}     
+}
 /* Changed styling of the links in the navBar */
 li a:link, li a:visited {
     text-decoration: none;
