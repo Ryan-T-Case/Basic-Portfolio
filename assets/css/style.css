@@ -1,3 +1,12 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
 /* Set the background image so that it would cover the page and not repeat itself */
 body {
     background-image: url("../images/fabric.png");
@@ -5,10 +14,12 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 100%;
-    padding-bottom: 75px;
+    min-height: 100%;
+    margin: 0;
+    padding: 100px 0;
+    position: relative;
 }
-/* Styling for text in the content */
+/* Styling for text in the content and footer */
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -81,7 +92,7 @@ li {
 /* Used this to frame my content center on the page */
 .wrapper {
     padding: 20px;
-    margin: 100px auto;
+    margin: auto;
     max-width: 960px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
