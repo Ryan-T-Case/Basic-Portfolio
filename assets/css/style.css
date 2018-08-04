@@ -1,7 +1,9 @@
+/* Made the entire html use box sizing instead of content sizing to fix issue with footer not pushing to bottom */
 html {
     height: 100%;
     box-sizing: border-box;
   }
+  /* All elements in the html will inherit border box box-sizing */
   *,
   *:before,
   *:after {
@@ -27,6 +29,14 @@ h2 {
 .bioText, label {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
+}
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cccccc;
+    text-align: center;
+    font-size: 10px;
+    position:  relative;
+    top: 50%;
 }
 /* Made a header bar with a fixed positon so the menu is always at the top of the browser window */
 header {
@@ -135,6 +145,37 @@ li {
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #ffffff;
+}
+/* Styling for the Contact Form */
+form {
+    margin-top: 20px;
+}
+input#name, input#email {
+    width: 100%;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    margin: 5px;
+}
+/* Used textarea tags to support multi-line input */
+textarea#message {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #dddddd;
+    margin: 5px;
+}
+input#submit {
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    border: 1px solid #4aaaa5;
+    padding: 10px;
+    width: 15%;
+    transition-duration: 0.5s;
+}
+/* Button background color and font color will swap when hovered over */
+input#submit:hover {
+    background-color: #ffffff;
+    color: #4aaaa5; 
 }
 /* Created a footer bar for the bottom of the page */
 footer {
