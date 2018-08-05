@@ -149,6 +149,7 @@ li {
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #ffffff;
+    transition-duration: 0.5s;
 }
 /* Styling for the Contact Form */
 form {
