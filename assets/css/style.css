@@ -57,7 +57,7 @@ header {
     margin: 0;
     padding: 0;
     width: 200px;
-    height: 70px;
+    height: 68px;
     position: fixed;
     left: 150px;
     top: 0px;
@@ -86,6 +86,10 @@ li a:link, li a:visited {
     text-decoration: none;
     color: #777777;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Added hover effect to navBar */
+li a:link:hover, li a:visited:hover {
+    color: #4aaaa5;
 }
 /* Changed styling of the links in the portfolio */
 .galleryBox a:link, .galleryBox a:visited {
